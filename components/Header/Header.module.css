@@ -1,0 +1,25 @@
+.title {
+  padding: 15px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.item {
+  margin: 0px 16px;
+}
+
+.item a {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.item a:hover,
+.item a:focus,
+.item a:active {
+  text-decoration: none;
+}
