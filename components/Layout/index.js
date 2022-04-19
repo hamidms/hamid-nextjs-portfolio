@@ -15,9 +15,17 @@ export default function Layout() {
     </Head>
 
     <Header/>
-    <Image src="/iheb-ab-OBufvGMaBaQ-unsplash.jpg" width={200} height={200} alt="Profile"/>
+
+    <div className={styles.profile}>
+      <Image src="/iheb-ab-OBufvGMaBaQ-unsplash.jpg" width={200} height={200} alt="Profile" />
+      <div className={styles.image}>
+        <p>Test</p>
+        <p>Test</p>
+      </div>
+    </div>
+    
     <main className={styles.main}>
-      <p>
+      <p className={styles.description}>
         Hamid Machfudin Sukardi was born in Semarang in 2000. He finished his High School in SMK Negeri 7 Semarang(Stembase). In his study at Stembase, he was leader on Japanese Conversation Club supervised by Yasmin Masami-sensei. In his 3rd year at Stembase he won an International Event from SEAMEO, his team achieve 1st place in the SEACC STEM Augmented Reality. In his 4th year at Stembase, he joined PT. Kubota Indonesia as internship student and finished his PHP Based Inventory Application. Then he was working on Open Source System Operating for Linux App Store using Vue.js supervised by Mr. Joestiharto.  He is now pursuing a Bachelor from Computer Science Department in The Bina Nusantara University. He is also studying Blockchain Technology and Artificial Intellegence, which is potentially generally useful for data manipulation.
       </p>
     </main>
